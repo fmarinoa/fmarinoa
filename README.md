@@ -3,6 +3,7 @@
 
 ## 🌐 Socials:
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/franco-mariño-2a289620a/) <br/>
+Mi portafolio web:
 [![Franco Marino Portfolio](https://portfolio.francomarino.dev/og-image.jpg)](https://portfolio.francomarino.dev)
 
 # 💻 Tech Stack:
