@@ -1,0 +1,90 @@
+import { promises as fs } from 'fs'
+import { LASTEST_LIMITS } from "./constants.js";
+import { capitalizeFirstLetter, getActorInfo, getRepositoryInfo } from "./utils.js";
+
+const fetchUserEvents = async () => {
+    const url = 'https://api.github.com/users/fmarinoa/events';
+    return await fetch(url)
+        .then(response => response.json())
+        .catch(error => { throw new Error('Error fetching user events: ' + error.message) });
+};
+
+const getLatestPrs = (events) => {
+    const { type, maxLatest } = LASTEST_LIMITS.pullRequests;
+    const filteredEvents = events.filter(event => event.type === type).slice(0, maxLatest);
+
+    if (!filteredEvents.length) return [];
+
+    return filteredEvents.map(event => ({
+        title: event.payload.pull_request.title,
+        url: event.payload.pull_request.html_url,
+        action: capitalizeFirstLetter(event.payload.action),
+        name: event.repo.name.split('/')[1],
+        actor: getActorInfo(event)
+    }));
+};
+
+const getLatestPushes = (events) => {
+    const { type, maxLatest } = LASTEST_LIMITS.push;
+    const filteredEvents = events.filter(event => event.type === type).slice(0, maxLatest);
+
+    if (!filteredEvents.length) return [];
+
+    return filteredEvents.map(event => ({
+        repository: getRepositoryInfo(event),
+        commits: event.payload.size,
+        actor: getActorInfo(event)
+    }));
+};
+
+const getLatestBranches = (events) => {
+    const { type, maxLatest } = LASTEST_LIMITS.branches;
+    const filteredEvents = events.filter(event => event.type === type).slice(0, maxLatest);
+    
+    if (!filteredEvents.length) return [];
+
+    return filteredEvents.map(event => ({
+        repository: getRepositoryInfo(event),
+        branch: event.payload.ref,
+        actor: getActorInfo(event)
+    }));
+};
+
+const writeLatestPr = (data) => {
+    if (!data.length) return 'Sin actividad reciente.';
+    return data.map(pr => 
+        `- [${pr.title}](${pr.url}) — **${pr.action}** en _${pr.name}_ por [${pr.actor.name}](${pr.actor.urlProfile})`
+    ).join('\n');
+}
+
+const writeLatestPushes = (data) => {
+    if (!data.length) return 'Sin actividad reciente.';
+    return data.map(push =>
+        `- [${push.repository.name}](${push.repository.url}) — ${push.commits} commit(s) por [${push.actor.name}](${push.actor.urlProfile})`
+    ).join('\n');
+}
+
+const writeLatestBranches = (data) => {
+    if (!data.length) return 'Sin actividad reciente.';
+    return data.map(branch =>
+        `- [${branch.repository.name}](${branch.repository.url}) — rama \`${branch.branch}\` creada por [${branch.actor.name}](${branch.actor.urlProfile})`
+    ).join('\n');
+};
+
+(async () => {
+    fetchUserEvents()
+    .then(events => {
+        const latestPRs = getLatestPrs(events);
+        const latestPushes = getLatestPushes(events);
+        const latestBranches = getLatestBranches(events);
+        return { latestPRs, latestPushes, latestBranches };
+    })
+    .then(async data => { 
+        const template = await fs.readFile('src/README.md.tpl', 'utf-8');
+        const output = template.replace('%{{latestPRs}}%', writeLatestPr(data.latestPRs))
+                             .replace('%{{latestPushes}}%', writeLatestPushes(data.latestPushes))
+                             .replace('%{{latestBranches}}%', writeLatestBranches(data.latestBranches))
+        await fs.writeFile('README.md', output);
+     })
+    .catch(error =>  { throw error });
+})();
