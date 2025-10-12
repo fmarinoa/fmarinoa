@@ -4,7 +4,9 @@ import { capitalizeFirstLetter, getActorInfo, getRepositoryInfo } from "./utils.
 
 const fetchUserEvents = async () => {
     const url = 'https://api.github.com/users/fmarinoa/events';
-    return await fetch(url)
+    return await fetch(url, {
+            headers: { 'Cache-Control': 'no-cache' }
+        })
         .then(response => response.json())
         .catch(error => { throw new Error('Error fetching user events: ' + error.message) });
 };
