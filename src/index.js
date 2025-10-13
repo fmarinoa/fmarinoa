@@ -28,7 +28,10 @@ const getLatestPrs = (events) => {
 
 const getLatestPushes = (events) => {
     const { type, maxLatest } = LASTEST_LIMITS.push;
-    const filteredEvents = events.filter(event => event.type === type).slice(0, maxLatest);
+    const filteredEvents = events.filter(event => 
+                                event.type === type &&
+                                event.repo.name !== 'fmarinoa/fmarinoa' // ignorar los pushes de este repo
+                            ).slice(0, maxLatest);
 
     if (!filteredEvents.length) return [];
 
