@@ -67,21 +67,28 @@ const getLatestBranches = (events) => {
 const writeLatestPr = (data) => {
     if (!data.length) return 'Sin actividad reciente.';
     return data.map(pr => 
-        `- [${pr.title}](${pr.url}) — en _[${pr.repository.name}](${pr.repository.url})_ por [${pr.actor.name}](${pr.actor.urlProfile}) : \`${pr.compare.head} → ${pr.compare.base}\``
+        `- 📝 [${pr.title}](${pr.url})  
+        📦 Repo: [_${pr.repository.name}_](${pr.repository.url})  
+        👤 Autor: [${pr.actor.name}](${pr.actor.urlProfile})  
+        🔀 Branch: \`${pr.compare.head} → ${pr.compare.base}\``
     ).join('\n');
 }
 
 const writeLatestPushes = (data) => {
     if (!data.length) return 'Sin actividad reciente.';
     return data.map(push =>
-        `- [${push.repository.name}](${push.repository.url}) — ${push.commits} commit(s) por [${push.actor.name}](${push.actor.urlProfile})`
+        `- 📦 Repo: [_${push.repository.name}_](${push.repository.url})  
+        🔢 Commits: **${push.commits}**  
+        👤 Autor: [${push.actor.name}](${push.actor.urlProfile})`
     ).join('\n');
 }
 
 const writeLatestBranches = (data) => {
     if (!data.length) return 'Sin actividad reciente.';
     return data.map(branch =>
-        `- [${branch.repository.name}](${branch.repository.url}) — rama \`${branch.branch}\` creada por [${branch.actor.name}](${branch.actor.urlProfile})`
+        `- 📦 Repo: [${branch.repository.name}](${branch.repository.url})  
+        🌿 Rama: \`${branch.branch}\`  
+        👤 Autor: [${branch.actor.name}](${branch.actor.urlProfile})`
     ).join('\n');
 };
 
