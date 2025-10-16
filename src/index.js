@@ -13,7 +13,12 @@ const fetchUserEvents = async () => {
 
 const getLatestPrs = (events) => {
     const { type, maxLatest } = LASTEST_LIMITS.pullRequests;
-    const filteredEvents = events.filter(event => event.type === type).slice(0, maxLatest);
+    const ACTIONS_ACCEPTED = ['opened', 'reopened', 'synchronize'];
+    const filteredEvents = events.filter(event =>
+                                event.type === type &&
+                                ACTIONS_ACCEPTED.includes(event.payload.action)
+                            )
+                            .slice(0, maxLatest);
 
     if (!filteredEvents.length) return [];
 
@@ -62,7 +67,7 @@ const getLatestBranches = (events) => {
 const writeLatestPr = (data) => {
     if (!data.length) return 'Sin actividad reciente.';
     return data.map(pr => 
-        `- [${pr.title}](${pr.url}) — **${pr.action}** en _[${pr.repository.name}](${pr.repository.url})_ por [${pr.actor.name}](${pr.actor.urlProfile}) : \`${pr.compare.head} → ${pr.compare.base}\``
+        `- [${pr.title}](${pr.url}) — en _[${pr.repository.name}](${pr.repository.url})_ por [${pr.actor.name}](${pr.actor.urlProfile}) : \`${pr.compare.head} → ${pr.compare.base}\``
     ).join('\n');
 }
 
