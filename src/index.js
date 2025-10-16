@@ -1,4 +1,4 @@
-import { promises as fs } from 'fs'
+import { promises as fs } from 'node:fs'
 import { LASTEST_LIMITS } from "./constants.js";
 import { capitalizeFirstLetter, getActorInfo, getRepositoryInfo } from "./utils.js";
 
@@ -13,10 +13,10 @@ const fetchUserEvents = async () => {
 
 const getLatestPrs = (events) => {
     const { type, maxLatest } = LASTEST_LIMITS.pullRequests;
-    const ACTIONS_ACCEPTED = ['opened', 'reopened', 'synchronize'];
+    const ACTIONS_ACCEPTED = new Set(['opened', 'reopened', 'synchronize']);
     const filteredEvents = events.filter(event =>
                                 event.type === type &&
-                                ACTIONS_ACCEPTED.includes(event.payload.action)
+                                ACTIONS_ACCEPTED.has(event.payload.action)
                             )
                             .slice(0, maxLatest);
 
@@ -93,7 +93,7 @@ const writeLatestBranches = (data) => {
 };
 
 (async () => {
-    fetchUserEvents()
+    await fetchUserEvents()
     .then(events => {
         const latestPRs = getLatestPrs(events);
         const latestPushes = getLatestPushes(events);
