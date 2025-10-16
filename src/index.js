@@ -21,7 +21,7 @@ const getLatestPrs = (events) => {
         title: event.payload.pull_request.title,
         url: event.payload.pull_request.html_url,
         action: capitalizeFirstLetter(event.payload.action),
-        name: event.repo.name.split('/')[1],
+        repository: getRepositoryInfo(event),
         actor: getActorInfo(event)
     }));
 };
@@ -58,7 +58,7 @@ const getLatestBranches = (events) => {
 const writeLatestPr = (data) => {
     if (!data.length) return 'Sin actividad reciente.';
     return data.map(pr => 
-        `- [${pr.title}](${pr.url}) — **${pr.action}** en _${pr.name}_ por [${pr.actor.name}](${pr.actor.urlProfile})`
+        `- [${pr.title}](${pr.url}) — **${pr.action}** en _[${pr.repository.name}](${pr.repository.url})_ por [${pr.actor.name}](${pr.actor.urlProfile})`
     ).join('\n');
 }
 
