@@ -1,12 +1,10 @@
 import { promises as fs } from 'node:fs'
-import { LASTEST_LIMITS } from "./constants.js";
+import { GITHUB_USERNAME, LASTEST_LIMITS, REQUEST_HEADERS } from "./constants.js";
 import { getActorInfo, getRepositoryInfo } from "./utils.js";
 
 const fetchUserEvents = async () => {
-    const url = 'https://api.github.com/users/fmarinoa/events';
-    return await fetch(url, {
-            headers: { 'Cache-Control': 'no-cache' }
-        })
+    const url = `https://api.github.com/users/${GITHUB_USERNAME}/events`;
+    return await fetch(url, { headers: REQUEST_HEADERS })
         .then(response => response.json())
         .catch(error => { throw new Error('Error fetching user events: ' + error.message) });
 };
@@ -23,7 +21,7 @@ const getLatestPrs = async (events) => {
     if (!filteredEvents.length) return [];
 
     return await Promise.all(filteredEvents.map(async (event) => {
-        const response = await fetch(event.payload.pull_request.url, { hheaders: { 'Cache-Control': 'no-cache' } }).then(res => res.json());
+        const response = await fetch(event.payload.pull_request.url, { headers: REQUEST_HEADERS }).then(res => res.json());
 
         return {
             title: response.title,
@@ -42,7 +40,7 @@ const getLatestPushes = async (events) => {
     const { type, maxLatest } = LASTEST_LIMITS.push;
     const filteredEvents = events.filter(event => 
                                 event.type === type &&
-                                event.repo.name !== 'fmarinoa/fmarinoa' // ignorar los pushes de este repo
+                                event.repo.name !== `${GITHUB_USERNAME}/${GITHUB_USERNAME}` // ignorar los pushes de este repo
                             ).slice(0, maxLatest);
 
     if (!filteredEvents.length) return [];
@@ -50,7 +48,7 @@ const getLatestPushes = async (events) => {
     return await Promise.all(filteredEvents.map(async (event) => {
         const repository = getRepositoryInfo(event);
 
-        const response = await fetch(`https://api.github.com/repos/fmarinoa/${repository.name}/compare/${event.payload.before}...${event.payload.head}`, { headers: { 'Cache-Control': 'no-cache' } }).then(res => res.json());
+        const response = await fetch(`https://api.github.com/repos/${GITHUB_USERNAME}/${repository.name}/compare/${event.payload.before}...${event.payload.head}`, { headers: REQUEST_HEADERS }).then(res => res.json());
 
         return {
             repository: repository,
