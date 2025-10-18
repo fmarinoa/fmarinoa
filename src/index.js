@@ -71,6 +71,7 @@ const getLatestPushes = async (events) => {
       return {
         repository: repository,
         commits: response.total_commits,
+        branch: event.payload.ref.replace("refs/heads/", ""),
         actor: getActorInfo(event),
       };
     })
@@ -112,6 +113,7 @@ const writeLatestPushes = (data) => {
       (push) =>
         `- 📦 Repo: [_${push.repository.name}_](${push.repository.url})  
         🔢 Commits: **${push.commits}**  
+        🌿 Rama: \`${push.branch}\`  
         👤 Autor: [${push.actor.name}](${push.actor.urlProfile})`
     )
     .join("\n");
