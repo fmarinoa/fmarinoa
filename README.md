@@ -2,38 +2,38 @@
 
 ### Últimos pull requests
 
-- 📝 [Develop](https://github.com/fmarinoa/fmarinoa-portfolio/pull/82)  
+- 📝 [undefined](undefined)  
+        📦 Repo: [_fmarinoa_](https://github.com/Don-Riko/fmarinoa)  
+        👤 Autor: [fmarinoa](https://github.com/fmarinoa)  
+        🔀 Branch: `undefined → undefined`
+- 📝 [undefined](undefined)  
         📦 Repo: [_fmarinoa-portfolio_](https://github.com/fmarinoa/fmarinoa-portfolio)  
         👤 Autor: [fmarinoa](https://github.com/fmarinoa)  
-        🔀 Branch: `fmarinoa:develop → fmarinoa:master`
-- 📝 [feat(newsletter): auto-hide success/error messages after 10s](https://github.com/midudev/bigibai-2025/pull/55)  
-        📦 Repo: [_bigibai-2025_](https://github.com/midudev/bigibai-2025)  
+        🔀 Branch: `undefined → undefined`
+- 📝 [undefined](undefined)  
+        📦 Repo: [_fmarinoa-portfolio_](https://github.com/fmarinoa/fmarinoa-portfolio)  
         👤 Autor: [fmarinoa](https://github.com/fmarinoa)  
-        🔀 Branch: `fmarinoa:feat/newsletter/auto-hide-messages-10s → midudev:main`
-- 📝 [feat(instructions): add commit message guidelines](https://github.com/midudev/bigibai-2025/pull/54)  
-        📦 Repo: [_bigibai-2025_](https://github.com/midudev/bigibai-2025)  
-        👤 Autor: [fmarinoa](https://github.com/fmarinoa)  
-        🔀 Branch: `fmarinoa:feat/instructions → midudev:main`
+        🔀 Branch: `undefined → undefined`
 
 ### Últimos pushes
 
-- 📦 Repo: [_search-job-linkedin_](https://github.com/fmarinoa/search-job-linkedin)  
-        🔢 Commits: **1**  
-        👤 Autor: [fmarinoa](https://github.com/fmarinoa)
-- 📦 Repo: [_search-job-linkedin_](https://github.com/fmarinoa/search-job-linkedin)  
-        🔢 Commits: **1**  
+- 📦 Repo: [_fmarinoa-portfolio_](https://github.com/fmarinoa/fmarinoa-portfolio)  
+        🔢 Commits: **undefined**  
         👤 Autor: [fmarinoa](https://github.com/fmarinoa)
 - 📦 Repo: [_fmarinoa-portfolio_](https://github.com/fmarinoa/fmarinoa-portfolio)  
-        🔢 Commits: **12**  
+        🔢 Commits: **undefined**  
+        👤 Autor: [fmarinoa](https://github.com/fmarinoa)
+- 📦 Repo: [_fmarinoa-portfolio_](https://github.com/fmarinoa/fmarinoa-portfolio)  
+        🔢 Commits: **undefined**  
         👤 Autor: [fmarinoa](https://github.com/fmarinoa)
 
 ### Últimas ramas
 
-- 📦 Repo: [bigibai-2025](https://github.com/fmarinoa/bigibai-2025)  
-        🌿 Rama: `feat/newsletter/auto-hide-messages-10s`  
+- 📦 Repo: [fmarinoa](https://github.com/fmarinoa/fmarinoa)  
+        🌿 Rama: `feat/don-riko`  
         👤 Autor: [fmarinoa](https://github.com/fmarinoa)
 - 📦 Repo: [bigibai-2025](https://github.com/fmarinoa/bigibai-2025)  
-        🌿 Rama: `feat/instructions`  
+        🌿 Rama: `feat/newsletter/auto-hide-messages-10s`  
         👤 Autor: [fmarinoa](https://github.com/fmarinoa)
 
 ## 📊 GitHub Stats:
