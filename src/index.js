@@ -1,6 +1,6 @@
 import { promises as fs } from 'node:fs'
 import { LASTEST_LIMITS } from "./constants.js";
-import { capitalizeFirstLetter, getActorInfo, getRepositoryInfo } from "./utils.js";
+import { getActorInfo, getRepositoryInfo } from "./utils.js";
 
 const fetchUserEvents = async () => {
     const url = 'https://api.github.com/users/fmarinoa/events';
@@ -11,7 +11,7 @@ const fetchUserEvents = async () => {
         .catch(error => { throw new Error('Error fetching user events: ' + error.message) });
 };
 
-const getLatestPrs = (events) => {
+const getLatestPrs = async (events) => {
     const { type, maxLatest } = LASTEST_LIMITS.pullRequests;
     const ACTIONS_ACCEPTED = new Set(['opened', 'reopened', 'synchronize']);
     const filteredEvents = events.filter(event =>
@@ -22,20 +22,23 @@ const getLatestPrs = (events) => {
 
     if (!filteredEvents.length) return [];
 
-    return filteredEvents.map(event => ({
-        title: event.payload.pull_request.title,
-        url: event.payload.pull_request.html_url,
-        action: capitalizeFirstLetter(event.payload.action),
-        repository: getRepositoryInfo(event),
-        actor: getActorInfo(event),
-        compare: {
-            head: event.payload.pull_request.head.label,
-            base: event.payload.pull_request.base.label
-        }
+    return await Promise.all(filteredEvents.map(async (event) => {
+        const response = await fetch(event.payload.pull_request.url, { hheaders: { 'Cache-Control': 'no-cache' } }).then(res => res.json());
+
+        return {
+            title: response.title,
+            url: response.html_url,
+            repository: getRepositoryInfo(event),
+            actor: getActorInfo(event),
+            compare: {
+                head: response.head.label,
+                base: response.base.label
+            }
+        };
     }));
 };
 
-const getLatestPushes = (events) => {
+const getLatestPushes = async (events) => {
     const { type, maxLatest } = LASTEST_LIMITS.push;
     const filteredEvents = events.filter(event => 
                                 event.type === type &&
@@ -44,10 +47,16 @@ const getLatestPushes = (events) => {
 
     if (!filteredEvents.length) return [];
 
-    return filteredEvents.map(event => ({
-        repository: getRepositoryInfo(event),
-        commits: event.payload.size,
-        actor: getActorInfo(event)
+    return await Promise.all(filteredEvents.map(async (event) => {
+        const repository = getRepositoryInfo(event);
+
+        const response = await fetch(`https://api.github.com/repos/fmarinoa/${repository.name}/compare/${event.payload.before}...${event.payload.head}`, { headers: { 'Cache-Control': 'no-cache' } }).then(res => res.json());
+
+        return {
+            repository: repository,
+            commits: response.total_commits,
+            actor: getActorInfo(event)
+        };
     }));
 };
 
@@ -94,9 +103,9 @@ const writeLatestBranches = (data) => {
 
 (async () => {
     await fetchUserEvents()
-    .then(events => {
-        const latestPRs = getLatestPrs(events);
-        const latestPushes = getLatestPushes(events);
+    .then(async events => {
+        const latestPRs = await getLatestPrs(events);
+        const latestPushes = await getLatestPushes(events);
         const latestBranches = getLatestBranches(events);
         return { latestPRs, latestPushes, latestBranches };
     })
