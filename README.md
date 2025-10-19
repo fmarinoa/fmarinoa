@@ -2,6 +2,10 @@
 
 ### Últimos pull requests
 
+- 📝 [Enhance hover and focus styles for tool cards](https://github.com/fmarinoa/fmarinoa-portfolio/pull/84)  
+        📦 Repo: [_fmarinoa-portfolio_](https://github.com/fmarinoa/fmarinoa-portfolio)  
+        👤 Autor: [fmarinoa](https://github.com/fmarinoa)  
+        🔀 Branch: `fmarinoa:develop → fmarinoa:master`
 - 📝 [Update user events API URL for Don-Riko](https://github.com/Don-Riko/fmarinoa/pull/1)  
         📦 Repo: [_fmarinoa_](https://github.com/Don-Riko/fmarinoa)  
         👤 Autor: [fmarinoa](https://github.com/fmarinoa)  
@@ -10,24 +14,20 @@
         📦 Repo: [_fmarinoa-portfolio_](https://github.com/fmarinoa/fmarinoa-portfolio)  
         👤 Autor: [fmarinoa](https://github.com/fmarinoa)  
         🔀 Branch: `fmarinoa:develop → fmarinoa:master`
-- 📝 [Develop](https://github.com/fmarinoa/fmarinoa-portfolio/pull/82)  
-        📦 Repo: [_fmarinoa-portfolio_](https://github.com/fmarinoa/fmarinoa-portfolio)  
-        👤 Autor: [fmarinoa](https://github.com/fmarinoa)  
-        🔀 Branch: `fmarinoa:develop → fmarinoa:master`
 
 ### Últimos pushes
 
 - 📦 Repo: [_fmarinoa-portfolio_](https://github.com/fmarinoa/fmarinoa-portfolio)  
-        🔢 Commits: **20**  
+        🔢 Commits: **1**  
+        🌿 Rama: `content`  
+        👤 Autor: [fmarinoa](https://github.com/fmarinoa)
+- 📦 Repo: [_fmarinoa-portfolio_](https://github.com/fmarinoa/fmarinoa-portfolio)  
+        🔢 Commits: **6**  
         🌿 Rama: `master`  
         👤 Autor: [fmarinoa](https://github.com/fmarinoa)
 - 📦 Repo: [_fmarinoa-portfolio_](https://github.com/fmarinoa/fmarinoa-portfolio)  
-        🔢 Commits: **4**  
+        🔢 Commits: **5**  
         🌿 Rama: `develop`  
-        👤 Autor: [fmarinoa](https://github.com/fmarinoa)
-- 📦 Repo: [_fmarinoa-portfolio_](https://github.com/fmarinoa/fmarinoa-portfolio)  
-        🔢 Commits: **1**  
-        🌿 Rama: `content`  
         👤 Autor: [fmarinoa](https://github.com/fmarinoa)
 
 ### Últimas ramas
