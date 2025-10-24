@@ -2,38 +2,38 @@
 
 ### Últimos pull requests
 
-- 📝 [Refactor(assertions): update transformMatchers logic](https://github.com/fmarinoa/cucumber-api-testing/pull/5)  
+- 📝 [Add login feature test scenarios](https://github.com/fmarinoa/cucumber-api-testing/pull/8)  
         📦 Repo: [_cucumber-api-testing_](https://github.com/fmarinoa/cucumber-api-testing)  
         👤 Autor: [fmarinoa](https://github.com/fmarinoa)  
         🔀 Branch: `fmarinoa:develop → fmarinoa:main`
-- 📝 [fix(assertions): comment out transformMatchers export](https://github.com/fmarinoa/cucumber-api-testing/pull/4)  
+- 📝 [Add scenarios for creating multiple users](https://github.com/fmarinoa/cucumber-api-testing/pull/7)  
         📦 Repo: [_cucumber-api-testing_](https://github.com/fmarinoa/cucumber-api-testing)  
         👤 Autor: [fmarinoa](https://github.com/fmarinoa)  
         🔀 Branch: `fmarinoa:develop → fmarinoa:main`
-- 📝 [Migrate from pactum to axios & jest](https://github.com/fmarinoa/cucumber-api-testing/pull/3)  
+- 📝 [Aadd scenarios for creating multiple users](https://github.com/fmarinoa/cucumber-api-testing/pull/6)  
         📦 Repo: [_cucumber-api-testing_](https://github.com/fmarinoa/cucumber-api-testing)  
         👤 Autor: [fmarinoa](https://github.com/fmarinoa)  
-        🔀 Branch: `fmarinoa:develop → fmarinoa:main`
+        🔀 Branch: `fmarinoa:feat/create-multiple-users → fmarinoa:develop`
 
 ### Últimos pushes
 
 - 📦 Repo: [_cucumber-api-testing_](https://github.com/fmarinoa/cucumber-api-testing)  
-        🔢 Commits: **4**  
+        🔢 Commits: **6**  
         🌿 Rama: `main`  
         👤 Autor: [fmarinoa](https://github.com/fmarinoa)
 - 📦 Repo: [_cucumber-api-testing_](https://github.com/fmarinoa/cucumber-api-testing)  
-        🔢 Commits: **1**  
+        🔢 Commits: **5**  
         🌿 Rama: `develop`  
         👤 Autor: [fmarinoa](https://github.com/fmarinoa)
 - 📦 Repo: [_cucumber-api-testing_](https://github.com/fmarinoa/cucumber-api-testing)  
-        🔢 Commits: **2**  
-        🌿 Rama: `develop`  
+        🔢 Commits: **9**  
+        🌿 Rama: `main`  
         👤 Autor: [fmarinoa](https://github.com/fmarinoa)
 
 ### Últimas ramas
 
 - 📦 Repo: [cucumber-api-testing](https://github.com/fmarinoa/cucumber-api-testing)  
-        🌿 Rama: `develop`  
+        🌿 Rama: `feat/create-multiple-users`  
         👤 Autor: [fmarinoa](https://github.com/fmarinoa)
 
 ## 📊 GitHub Stats:
