@@ -6,14 +6,6 @@
         📦 Repo: [_cucumber-api-testing_](https://github.com/fmarinoa/cucumber-api-testing)  
         👤 Autor: [fmarinoa](https://github.com/fmarinoa)  
         🔀 Branch: `fmarinoa:develop → fmarinoa:main`
-- 📝 [Add scenarios for creating multiple users](https://github.com/fmarinoa/cucumber-api-testing/pull/7)  
-        📦 Repo: [_cucumber-api-testing_](https://github.com/fmarinoa/cucumber-api-testing)  
-        👤 Autor: [fmarinoa](https://github.com/fmarinoa)  
-        🔀 Branch: `fmarinoa:develop → fmarinoa:main`
-- 📝 [Aadd scenarios for creating multiple users](https://github.com/fmarinoa/cucumber-api-testing/pull/6)  
-        📦 Repo: [_cucumber-api-testing_](https://github.com/fmarinoa/cucumber-api-testing)  
-        👤 Autor: [fmarinoa](https://github.com/fmarinoa)  
-        🔀 Branch: `fmarinoa:feat/create-multiple-users → fmarinoa:develop`
 
 ### Últimos pushes
 
@@ -34,9 +26,6 @@
 
 - 📦 Repo: [mc-server](https://github.com/fmarinoa/mc-server)  
         🌿 Rama: `main`  
-        👤 Autor: [fmarinoa](https://github.com/fmarinoa)
-- 📦 Repo: [cucumber-api-testing](https://github.com/fmarinoa/cucumber-api-testing)  
-        🌿 Rama: `feat/create-multiple-users`  
         👤 Autor: [fmarinoa](https://github.com/fmarinoa)
 
 ## 📊 GitHub Stats:
