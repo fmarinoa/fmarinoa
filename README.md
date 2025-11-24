@@ -2,10 +2,7 @@
 
 ### Últimos pull requests
 
-- 📝 [Add login feature test scenarios](https://github.com/fmarinoa/cucumber-api-testing/pull/8)  
-        📦 Repo: [_cucumber-api-testing_](https://github.com/fmarinoa/cucumber-api-testing)  
-        👤 Autor: [fmarinoa](https://github.com/fmarinoa)  
-        🔀 Branch: `fmarinoa:develop → fmarinoa:main`
+Sin actividad reciente.
 
 ### Últimos pushes
 
