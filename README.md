@@ -21,9 +21,7 @@ Sin actividad reciente.
 
 ### Últimas ramas
 
-- 📦 Repo: [mc-server](https://github.com/fmarinoa/mc-server)  
-        🌿 Rama: `main`  
-        👤 Autor: [fmarinoa](https://github.com/fmarinoa)
+Sin actividad reciente.
 
 ## 📊 GitHub Stats:
 ![](https://github-readme-stats.vercel.app/api?username=fmarinoa&theme=dark)
