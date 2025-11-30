@@ -10,6 +10,10 @@ Sin actividad reciente.
         🔢 Commits: **2**  
         🌿 Rama: `main`  
         👤 Autor: [fmarinoa](https://github.com/fmarinoa)
+- 📦 Repo: [_el-impostor-game_](https://github.com/fmarinoa/el-impostor-game)  
+        🔢 Commits: **2**  
+        🌿 Rama: `main`  
+        👤 Autor: [fmarinoa](https://github.com/fmarinoa)
 
 ### Últimas ramas
 
