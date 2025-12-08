@@ -11,11 +11,11 @@ Sin actividad reciente.
         🌿 Rama: `main`  
         👤 Autor: [fmarinoa](https://github.com/fmarinoa)
 - 📦 Repo: [_el-impostor-game_](https://github.com/fmarinoa/el-impostor-game)  
-        🔢 Commits: **1**  
+        🔢 Commits: **11**  
         🌿 Rama: `main`  
         👤 Autor: [fmarinoa](https://github.com/fmarinoa)
 - 📦 Repo: [_el-impostor-game_](https://github.com/fmarinoa/el-impostor-game)  
-        🔢 Commits: **1**  
+        🔢 Commits: **2**  
         🌿 Rama: `main`  
         👤 Autor: [fmarinoa](https://github.com/fmarinoa)
 
