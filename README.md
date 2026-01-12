@@ -21,7 +21,9 @@ Sin actividad reciente.
 
 ### Últimas ramas
 
-Sin actividad reciente.
+- 📦 Repo: [cucumber-stagehand-core](https://github.com/fmarinoa/cucumber-stagehand-core)  
+        🌿 Rama: `main`  
+        👤 Autor: [fmarinoa](https://github.com/fmarinoa)
 
 ## 📊 GitHub Stats:
 ![](https://github-readme-stats.vercel.app/api?username=fmarinoa&theme=dark)
