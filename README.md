@@ -2,21 +2,24 @@
 
 ### Últimos pull requests
 
-Sin actividad reciente.
+- 📝 [Develop](https://github.com/fmarinoa/fmarinoa-portfolio/pull/85)  
+        📦 Repo: [_fmarinoa-portfolio_](https://github.com/fmarinoa/fmarinoa-portfolio)  
+        👤 Autor: [fmarinoa](https://github.com/fmarinoa)  
+        🔀 Branch: `fmarinoa:develop → fmarinoa:master`
 
 ### Últimos pushes
 
-- 📦 Repo: [_search-job-linkedin_](https://github.com/fmarinoa/search-job-linkedin)  
-        🔢 Commits: **1**  
-        🌿 Rama: `main`  
-        👤 Autor: [fmarinoa](https://github.com/fmarinoa)
-- 📦 Repo: [_el-impostor-game_](https://github.com/fmarinoa/el-impostor-game)  
-        🔢 Commits: **1**  
-        🌿 Rama: `main`  
+- 📦 Repo: [_fmarinoa-portfolio_](https://github.com/fmarinoa/fmarinoa-portfolio)  
+        🔢 Commits: **5**  
+        🌿 Rama: `master`  
         👤 Autor: [fmarinoa](https://github.com/fmarinoa)
 - 📦 Repo: [_fmarinoa-portfolio_](https://github.com/fmarinoa/fmarinoa-portfolio)  
         🔢 Commits: **1**  
-        🌿 Rama: `content`  
+        🌿 Rama: `develop`  
+        👤 Autor: [fmarinoa](https://github.com/fmarinoa)
+- 📦 Repo: [_fmarinoa-portfolio_](https://github.com/fmarinoa/fmarinoa-portfolio)  
+        🔢 Commits: **3**  
+        🌿 Rama: `develop`  
         👤 Autor: [fmarinoa](https://github.com/fmarinoa)
 
 ### Últimas ramas
