@@ -2,30 +2,38 @@
 
 ### Últimos pull requests
 
-- 📝 [Develop](https://github.com/fmarinoa/fmarinoa-portfolio/pull/85)  
-        📦 Repo: [_fmarinoa-portfolio_](https://github.com/fmarinoa/fmarinoa-portfolio)  
+- 📝 [feat(report): format generated date in local timezone](https://github.com/fmarinoa/cucumber-api-testing/pull/13)  
+        📦 Repo: [_cucumber-api-testing_](https://github.com/fmarinoa/cucumber-api-testing)  
         👤 Autor: [fmarinoa](https://github.com/fmarinoa)  
-        🔀 Branch: `fmarinoa:develop → fmarinoa:master`
+        🔀 Branch: `fmarinoa:develop → fmarinoa:main`
+- 📝 [ci(deploy): update checkout step for Amplify deployment](https://github.com/fmarinoa/cucumber-api-testing/pull/12)  
+        📦 Repo: [_cucumber-api-testing_](https://github.com/fmarinoa/cucumber-api-testing)  
+        👤 Autor: [fmarinoa](https://github.com/fmarinoa)  
+        🔀 Branch: `fmarinoa:develop → fmarinoa:main`
+- 📝 [feat(deploy): implement script for AWS Amplify deployment](https://github.com/fmarinoa/cucumber-api-testing/pull/11)  
+        📦 Repo: [_cucumber-api-testing_](https://github.com/fmarinoa/cucumber-api-testing)  
+        👤 Autor: [fmarinoa](https://github.com/fmarinoa)  
+        🔀 Branch: `fmarinoa:develop → fmarinoa:main`
 
 ### Últimos pushes
 
-- 📦 Repo: [_cucumber-stagehand-core_](https://github.com/fmarinoa/cucumber-stagehand-core)  
-        🔢 Commits: **1**  
+- 📦 Repo: [_cucumber-api-testing_](https://github.com/fmarinoa/cucumber-api-testing)  
+        🔢 Commits: **2**  
         🌿 Rama: `main`  
         👤 Autor: [fmarinoa](https://github.com/fmarinoa)
-- 📦 Repo: [_cucumber-stagehand-core_](https://github.com/fmarinoa/cucumber-stagehand-core)  
+- 📦 Repo: [_cucumber-api-testing_](https://github.com/fmarinoa/cucumber-api-testing)  
         🔢 Commits: **1**  
-        🌿 Rama: `main`  
+        🌿 Rama: `develop`  
         👤 Autor: [fmarinoa](https://github.com/fmarinoa)
-- 📦 Repo: [_cucumber-stagehand-core_](https://github.com/fmarinoa/cucumber-stagehand-core)  
-        🔢 Commits: **1**  
+- 📦 Repo: [_cucumber-api-testing_](https://github.com/fmarinoa/cucumber-api-testing)  
+        🔢 Commits: **2**  
         🌿 Rama: `main`  
         👤 Autor: [fmarinoa](https://github.com/fmarinoa)
 
 ### Últimas ramas
 
-- 📦 Repo: [cucumber-stagehand-core](https://github.com/fmarinoa/cucumber-stagehand-core)  
-        🌿 Rama: `main`  
+- 📦 Repo: [cucumber-api-testing](https://github.com/fmarinoa/cucumber-api-testing)  
+        🌿 Rama: `deploy-amplify`  
         👤 Autor: [fmarinoa](https://github.com/fmarinoa)
 
 ## 📊 GitHub Stats:
