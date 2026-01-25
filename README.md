@@ -2,15 +2,15 @@
 
 ### Últimos pull requests
 
-- 📝 [feat(report): format generated date in local timezone](https://github.com/fmarinoa/cucumber-api-testing/pull/13)  
+- 📝 [feat(performance): add response time validation and tracking](https://github.com/fmarinoa/cucumber-api-testing/pull/17)  
         📦 Repo: [_cucumber-api-testing_](https://github.com/fmarinoa/cucumber-api-testing)  
         👤 Autor: [fmarinoa](https://github.com/fmarinoa)  
         🔀 Branch: `fmarinoa:develop → fmarinoa:main`
-- 📝 [ci(deploy): update checkout step for Amplify deployment](https://github.com/fmarinoa/cucumber-api-testing/pull/12)  
+- 📝 [chore(actions): replace custom amplify deploy action with fmarinoa version](https://github.com/fmarinoa/cucumber-api-testing/pull/16)  
         📦 Repo: [_cucumber-api-testing_](https://github.com/fmarinoa/cucumber-api-testing)  
         👤 Autor: [fmarinoa](https://github.com/fmarinoa)  
         🔀 Branch: `fmarinoa:develop → fmarinoa:main`
-- 📝 [feat(deploy): implement script for AWS Amplify deployment](https://github.com/fmarinoa/cucumber-api-testing/pull/11)  
+- 📝 [ci(workflow): simplify test execution and deployment steps](https://github.com/fmarinoa/cucumber-api-testing/pull/15)  
         📦 Repo: [_cucumber-api-testing_](https://github.com/fmarinoa/cucumber-api-testing)  
         👤 Autor: [fmarinoa](https://github.com/fmarinoa)  
         🔀 Branch: `fmarinoa:develop → fmarinoa:main`
@@ -25,15 +25,15 @@
         🔢 Commits: **1**  
         🌿 Rama: `develop`  
         👤 Autor: [fmarinoa](https://github.com/fmarinoa)
-- 📦 Repo: [_cucumber-api-testing_](https://github.com/fmarinoa/cucumber-api-testing)  
-        🔢 Commits: **2**  
-        🌿 Rama: `main`  
+- 📦 Repo: [_fmarinoa-portfolio_](https://github.com/fmarinoa/fmarinoa-portfolio)  
+        🔢 Commits: **1**  
+        🌿 Rama: `content`  
         👤 Autor: [fmarinoa](https://github.com/fmarinoa)
 
 ### Últimas ramas
 
-- 📦 Repo: [cucumber-api-testing](https://github.com/fmarinoa/cucumber-api-testing)  
-        🌿 Rama: `deploy-amplify`  
+- 📦 Repo: [amplify-deploy](https://github.com/fmarinoa/amplify-deploy)  
+        🌿 Rama: `main`  
         👤 Autor: [fmarinoa](https://github.com/fmarinoa)
 
 ## 📊 GitHub Stats:
