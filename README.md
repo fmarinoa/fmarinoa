@@ -10,10 +10,6 @@
         📦 Repo: [_cucumber-api-testing_](https://github.com/fmarinoa/cucumber-api-testing)  
         👤 Autor: [fmarinoa](https://github.com/fmarinoa)  
         🔀 Branch: `fmarinoa:develop → fmarinoa:main`
-- 📝 [ci(workflow): simplify test execution and deployment steps](https://github.com/fmarinoa/cucumber-api-testing/pull/15)  
-        📦 Repo: [_cucumber-api-testing_](https://github.com/fmarinoa/cucumber-api-testing)  
-        👤 Autor: [fmarinoa](https://github.com/fmarinoa)  
-        🔀 Branch: `fmarinoa:develop → fmarinoa:main`
 
 ### Últimos pushes
 
