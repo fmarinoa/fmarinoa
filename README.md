@@ -31,9 +31,6 @@
 - 📦 Repo: [shortlink-api](https://github.com/fmarinoa/shortlink-api)  
         🌿 Rama: `main`  
         👤 Autor: [fmarinoa](https://github.com/fmarinoa)
-- 📦 Repo: [amplify-deploy](https://github.com/fmarinoa/amplify-deploy)  
-        🌿 Rama: `main`  
-        👤 Autor: [fmarinoa](https://github.com/fmarinoa)
 
 ## 📊 GitHub Stats:
 ![](https://github-readme-stats.vercel.app/api?username=fmarinoa&theme=dark)
