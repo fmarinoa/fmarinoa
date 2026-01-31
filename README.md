@@ -6,28 +6,29 @@
         📦 Repo: [_cucumber-api-testing_](https://github.com/fmarinoa/cucumber-api-testing)  
         👤 Autor: [fmarinoa](https://github.com/fmarinoa)  
         🔀 Branch: `fmarinoa:develop → fmarinoa:main`
+- 📝 [chore(actions): replace custom amplify deploy action with fmarinoa version](https://github.com/fmarinoa/cucumber-api-testing/pull/16)  
+        📦 Repo: [_cucumber-api-testing_](https://github.com/fmarinoa/cucumber-api-testing)  
+        👤 Autor: [fmarinoa](https://github.com/fmarinoa)  
+        🔀 Branch: `fmarinoa:develop → fmarinoa:main`
 
 ### Últimos pushes
 
-- 📦 Repo: [_shortlink-api_](https://github.com/fmarinoa/shortlink-api)  
-        🔢 Commits: **1**  
+- 📦 Repo: [_shortlink-monorepo_](https://github.com/fmarinoa/shortlink-monorepo)  
+        🔢 Commits: **3**  
         🌿 Rama: `main`  
         👤 Autor: [fmarinoa](https://github.com/fmarinoa)
-- 📦 Repo: [_shortlink-admin_](https://github.com/fmarinoa/shortlink-admin)  
-        🔢 Commits: **1**  
+- 📦 Repo: [_shortlink-monorepo_](https://github.com/fmarinoa/shortlink-monorepo)  
+        🔢 Commits: **2**  
         🌿 Rama: `main`  
         👤 Autor: [fmarinoa](https://github.com/fmarinoa)
-- 📦 Repo: [_shortlink-api_](https://github.com/fmarinoa/shortlink-api)  
+- 📦 Repo: [_shortlink-monorepo_](https://github.com/fmarinoa/shortlink-monorepo)  
         🔢 Commits: **1**  
         🌿 Rama: `main`  
         👤 Autor: [fmarinoa](https://github.com/fmarinoa)
 
 ### Últimas ramas
 
-- 📦 Repo: [shortlink-admin](https://github.com/fmarinoa/shortlink-admin)  
-        🌿 Rama: `main`  
-        👤 Autor: [fmarinoa](https://github.com/fmarinoa)
-- 📦 Repo: [shortlink-api](https://github.com/fmarinoa/shortlink-api)  
+- 📦 Repo: [shortlink-monorepo](https://github.com/fmarinoa/shortlink-monorepo)  
         🌿 Rama: `main`  
         👤 Autor: [fmarinoa](https://github.com/fmarinoa)
 
