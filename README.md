@@ -2,10 +2,7 @@
 
 ### Últimos pull requests
 
-- 📝 [feat(performance): add response time validation and tracking](https://github.com/fmarinoa/cucumber-api-testing/pull/17)  
-        📦 Repo: [_cucumber-api-testing_](https://github.com/fmarinoa/cucumber-api-testing)  
-        👤 Autor: [fmarinoa](https://github.com/fmarinoa)  
-        🔀 Branch: `fmarinoa:develop → fmarinoa:main`
+Sin actividad reciente.
 
 ### Últimos pushes
 
@@ -13,12 +10,12 @@
         🔢 Commits: **1**  
         🌿 Rama: `main`  
         👤 Autor: [fmarinoa](https://github.com/fmarinoa)
-- 📦 Repo: [_shortlink-monorepo_](https://github.com/fmarinoa/shortlink-monorepo)  
-        🔢 Commits: **4**  
+- 📦 Repo: [_personal-finance-monorepo_](https://github.com/fmarinoa/personal-finance-monorepo)  
+        🔢 Commits: **7**  
         🌿 Rama: `main`  
         👤 Autor: [fmarinoa](https://github.com/fmarinoa)
-- 📦 Repo: [_shortlink-monorepo_](https://github.com/fmarinoa/shortlink-monorepo)  
-        🔢 Commits: **1**  
+- 📦 Repo: [_personal-finance-monorepo_](https://github.com/fmarinoa/personal-finance-monorepo)  
+        🔢 Commits: **3**  
         🌿 Rama: `main`  
         👤 Autor: [fmarinoa](https://github.com/fmarinoa)
 
