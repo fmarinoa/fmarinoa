@@ -7,15 +7,15 @@ Sin actividad reciente.
 ### Últimos pushes
 
 - 📦 Repo: [_personal-finance-monorepo_](https://github.com/fmarinoa/personal-finance-monorepo)  
+        🔢 Commits: **1**  
+        🌿 Rama: `main`  
+        👤 Autor: [fmarinoa](https://github.com/fmarinoa)
+- 📦 Repo: [_personal-finance-monorepo_](https://github.com/fmarinoa/personal-finance-monorepo)  
         🔢 Commits: **6**  
         🌿 Rama: `main`  
         👤 Autor: [fmarinoa](https://github.com/fmarinoa)
 - 📦 Repo: [_personal-finance-monorepo_](https://github.com/fmarinoa/personal-finance-monorepo)  
-        🔢 Commits: **3**  
-        🌿 Rama: `main`  
-        👤 Autor: [fmarinoa](https://github.com/fmarinoa)
-- 📦 Repo: [_personal-finance-monorepo_](https://github.com/fmarinoa/personal-finance-monorepo)  
-        🔢 Commits: **1**  
+        🔢 Commits: **6**  
         🌿 Rama: `main`  
         👤 Autor: [fmarinoa](https://github.com/fmarinoa)
 
