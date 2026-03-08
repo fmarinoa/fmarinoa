@@ -11,11 +11,11 @@ Sin actividad reciente.
         🌿 Rama: `main`  
         👤 Autor: [fmarinoa](https://github.com/fmarinoa)
 - 📦 Repo: [_personal-finance-monorepo_](https://github.com/fmarinoa/personal-finance-monorepo)  
-        🔢 Commits: **5**  
+        🔢 Commits: **1**  
         🌿 Rama: `main`  
         👤 Autor: [fmarinoa](https://github.com/fmarinoa)
 - 📦 Repo: [_personal-finance-monorepo_](https://github.com/fmarinoa/personal-finance-monorepo)  
-        🔢 Commits: **2**  
+        🔢 Commits: **5**  
         🌿 Rama: `main`  
         👤 Autor: [fmarinoa](https://github.com/fmarinoa)
 
