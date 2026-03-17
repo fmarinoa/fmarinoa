@@ -10,10 +10,6 @@ Sin actividad reciente.
         🔢 Commits: **1**  
         🌿 Rama: `main`  
         👤 Autor: [fmarinoa](https://github.com/fmarinoa)
-- 📦 Repo: [_shortlink-monorepo_](https://github.com/fmarinoa/shortlink-monorepo)  
-        🔢 Commits: **4**  
-        🌿 Rama: `main`  
-        👤 Autor: [fmarinoa](https://github.com/fmarinoa)
 
 ### Últimas ramas
 
