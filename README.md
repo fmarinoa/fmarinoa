@@ -6,10 +6,7 @@ Sin actividad reciente.
 
 ### Últimos pushes
 
-- 📦 Repo: [_shortlink-monorepo_](https://github.com/fmarinoa/shortlink-monorepo)  
-        🔢 Commits: **1**  
-        🌿 Rama: `main`  
-        👤 Autor: [fmarinoa](https://github.com/fmarinoa)
+Sin actividad reciente.
 
 ### Últimas ramas
 
