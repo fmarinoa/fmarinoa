@@ -10,11 +10,11 @@
 ### Últimos pushes
 
 - 📦 Repo: [_jw-service-tracker_](https://github.com/fmarinoa/jw-service-tracker)  
-        🔢 Commits: **1**  
+        🔢 Commits: **2**  
         🌿 Rama: `main`  
         👤 Autor: [fmarinoa](https://github.com/fmarinoa)
 - 📦 Repo: [_jw-service-tracker_](https://github.com/fmarinoa/jw-service-tracker)  
-        🔢 Commits: **1**  
+        🔢 Commits: **2**  
         🌿 Rama: `main`  
         👤 Autor: [fmarinoa](https://github.com/fmarinoa)
 - 📦 Repo: [_jw-service-tracker_](https://github.com/fmarinoa/jw-service-tracker)  
