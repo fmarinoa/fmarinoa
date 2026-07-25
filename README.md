@@ -2,19 +2,16 @@
 
 ### Últimos pull requests
 
-- 📝 [Release v0.0.3](https://github.com/fmarinoa/jw-service-tracker/pull/3)  
-        📦 Repo: [_jw-service-tracker_](https://github.com/fmarinoa/jw-service-tracker)  
-        👤 Autor: [fmarinoa](https://github.com/fmarinoa)  
-        🔀 Branch: `fmarinoa:v0.0.3 → fmarinoa:main`
+Sin actividad reciente.
 
 ### Últimos pushes
 
 - 📦 Repo: [_jw-service-tracker_](https://github.com/fmarinoa/jw-service-tracker)  
-        🔢 Commits: **2**  
+        🔢 Commits: **1**  
         🌿 Rama: `main`  
         👤 Autor: [fmarinoa](https://github.com/fmarinoa)
 - 📦 Repo: [_jw-service-tracker_](https://github.com/fmarinoa/jw-service-tracker)  
-        🔢 Commits: **2**  
+        🔢 Commits: **1**  
         🌿 Rama: `main`  
         👤 Autor: [fmarinoa](https://github.com/fmarinoa)
 - 📦 Repo: [_jw-service-tracker_](https://github.com/fmarinoa/jw-service-tracker)  
@@ -24,9 +21,7 @@
 
 ### Últimas ramas
 
-- 📦 Repo: [jw-service-tracker](https://github.com/fmarinoa/jw-service-tracker)  
-        🌿 Rama: `v0.0.3`  
-        👤 Autor: [fmarinoa](https://github.com/fmarinoa)
+Sin actividad reciente.
 
 ## 📊 GitHub Stats:
 ![](https://github-readme-stats.vercel.app/api?username=fmarinoa&theme=dark)
