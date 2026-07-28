@@ -2,6 +2,10 @@
 
 ### Últimos pull requests
 
+- 📝 [Redesign with terminal theme](https://github.com/fmarinoa/fmarinoa-portfolio/pull/87)  
+        📦 Repo: [_fmarinoa-portfolio_](https://github.com/fmarinoa/fmarinoa-portfolio)  
+        👤 Autor: [fmarinoa](https://github.com/fmarinoa)  
+        🔀 Branch: `fmarinoa:develop → fmarinoa:master`
 - 📝 [Feat: redesign terminal theme](https://github.com/fmarinoa/fmarinoa-portfolio/pull/86)  
         📦 Repo: [_fmarinoa-portfolio_](https://github.com/fmarinoa/fmarinoa-portfolio)  
         👤 Autor: [fmarinoa](https://github.com/fmarinoa)  
@@ -15,19 +19,22 @@
 
 - 📦 Repo: [_fmarinoa-portfolio_](https://github.com/fmarinoa/fmarinoa-portfolio)  
         🔢 Commits: **1**  
-        🌿 Rama: `feat/redesign-terminal-theme`  
+        🌿 Rama: `master`  
+        👤 Autor: [fmarinoa](https://github.com/fmarinoa)
+- 📦 Repo: [_fmarinoa-portfolio_](https://github.com/fmarinoa/fmarinoa-portfolio)  
+        🔢 Commits: **3**  
+        🌿 Rama: `develop`  
         👤 Autor: [fmarinoa](https://github.com/fmarinoa)
 - 📦 Repo: [_fmarinoa-portfolio_](https://github.com/fmarinoa/fmarinoa-portfolio)  
         🔢 Commits: **1**  
-        🌿 Rama: `feat/redesign-terminal-theme`  
-        👤 Autor: [fmarinoa](https://github.com/fmarinoa)
-- 📦 Repo: [_fmarinoa-portfolio_](https://github.com/fmarinoa/fmarinoa-portfolio)  
-        🔢 Commits: **1**  
-        🌿 Rama: `content`  
+        🌿 Rama: `test`  
         👤 Autor: [fmarinoa](https://github.com/fmarinoa)
 
 ### Últimas ramas
 
+- 📦 Repo: [crossword-futbol](https://github.com/fmarinoa/crossword-futbol)  
+        🌿 Rama: `main`  
+        👤 Autor: [fmarinoa](https://github.com/fmarinoa)
 - 📦 Repo: [fmarinoa-portfolio](https://github.com/fmarinoa/fmarinoa-portfolio)  
         🌿 Rama: `feat/redesign-terminal-theme`  
         👤 Autor: [fmarinoa](https://github.com/fmarinoa)
