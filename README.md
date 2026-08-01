@@ -18,11 +18,11 @@
         🌿 Rama: `main`  
         👤 Autor: [fmarinoa](https://github.com/fmarinoa)
 - 📦 Repo: [_jw-service-tracker_](https://github.com/fmarinoa/jw-service-tracker)  
-        🔢 Commits: **3**  
+        🔢 Commits: **1**  
         🌿 Rama: `main`  
         👤 Autor: [fmarinoa](https://github.com/fmarinoa)
 - 📦 Repo: [_jw-service-tracker_](https://github.com/fmarinoa/jw-service-tracker)  
-        🔢 Commits: **6**  
+        🔢 Commits: **3**  
         🌿 Rama: `main`  
         👤 Autor: [fmarinoa](https://github.com/fmarinoa)
 
