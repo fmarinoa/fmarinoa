@@ -6,15 +6,11 @@
         📦 Repo: [_fmarinoa-portfolio_](https://github.com/fmarinoa/fmarinoa-portfolio)  
         👤 Autor: [fmarinoa](https://github.com/fmarinoa)  
         🔀 Branch: `fmarinoa:develop → fmarinoa:master`
-- 📝 [Feat: redesign terminal theme](https://github.com/fmarinoa/fmarinoa-portfolio/pull/86)  
-        📦 Repo: [_fmarinoa-portfolio_](https://github.com/fmarinoa/fmarinoa-portfolio)  
-        👤 Autor: [fmarinoa](https://github.com/fmarinoa)  
-        🔀 Branch: `fmarinoa:feat/redesign-terminal-theme → fmarinoa:develop`
 
 ### Últimos pushes
 
-- 📦 Repo: [_jw-service-tracker_](https://github.com/fmarinoa/jw-service-tracker)  
-        🔢 Commits: **1**  
+- 📦 Repo: [_qa-automation-challenge_](https://github.com/fmarinoa/qa-automation-challenge)  
+        🔢 Commits: **undefined**  
         🌿 Rama: `main`  
         👤 Autor: [fmarinoa](https://github.com/fmarinoa)
 - 📦 Repo: [_jw-service-tracker_](https://github.com/fmarinoa/jw-service-tracker)  
@@ -22,17 +18,17 @@
         🌿 Rama: `main`  
         👤 Autor: [fmarinoa](https://github.com/fmarinoa)
 - 📦 Repo: [_jw-service-tracker_](https://github.com/fmarinoa/jw-service-tracker)  
-        🔢 Commits: **3**  
+        🔢 Commits: **1**  
         🌿 Rama: `main`  
         👤 Autor: [fmarinoa](https://github.com/fmarinoa)
 
 ### Últimas ramas
 
-- 📦 Repo: [crossword-futbol](https://github.com/fmarinoa/crossword-futbol)  
+- 📦 Repo: [qa-automation-challenge](https://github.com/fmarinoa/qa-automation-challenge)  
         🌿 Rama: `main`  
         👤 Autor: [fmarinoa](https://github.com/fmarinoa)
-- 📦 Repo: [fmarinoa-portfolio](https://github.com/fmarinoa/fmarinoa-portfolio)  
-        🌿 Rama: `feat/redesign-terminal-theme`  
+- 📦 Repo: [crossword-futbol](https://github.com/fmarinoa/crossword-futbol)  
+        🌿 Rama: `main`  
         👤 Autor: [fmarinoa](https://github.com/fmarinoa)
 
 ## 📊 GitHub Stats:
