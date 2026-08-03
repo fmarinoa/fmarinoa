@@ -9,12 +9,12 @@
 
 ### Últimos pushes
 
-- 📦 Repo: [_qa-automation-challenge_](https://github.com/fmarinoa/qa-automation-challenge)  
-        🔢 Commits: **undefined**  
+- 📦 Repo: [_jw-service-tracker_](https://github.com/fmarinoa/jw-service-tracker)  
+        🔢 Commits: **3**  
         🌿 Rama: `main`  
         👤 Autor: [fmarinoa](https://github.com/fmarinoa)
-- 📦 Repo: [_jw-service-tracker_](https://github.com/fmarinoa/jw-service-tracker)  
-        🔢 Commits: **1**  
+- 📦 Repo: [_qa-automation-challenge_](https://github.com/fmarinoa/qa-automation-challenge)  
+        🔢 Commits: **undefined**  
         🌿 Rama: `main`  
         👤 Autor: [fmarinoa](https://github.com/fmarinoa)
 - 📦 Repo: [_jw-service-tracker_](https://github.com/fmarinoa/jw-service-tracker)  
