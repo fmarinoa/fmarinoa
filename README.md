@@ -2,6 +2,10 @@
 
 ### Últimos pull requests
 
+- 📝 [Bump support for Playwright 1.62.1](https://github.com/Xray-App/playwright-junit-reporter/pull/53)  
+        📦 Repo: [_playwright-junit-reporter_](https://github.com/Xray-App/playwright-junit-reporter)  
+        👤 Autor: [fmarinoa](https://github.com/fmarinoa)  
+        🔀 Branch: `fmarinoa:feat/playwright-1.62-support → Xray-App:main`
 - 📝 [Redesign with terminal theme](https://github.com/fmarinoa/fmarinoa-portfolio/pull/87)  
         📦 Repo: [_fmarinoa-portfolio_](https://github.com/fmarinoa/fmarinoa-portfolio)  
         👤 Autor: [fmarinoa](https://github.com/fmarinoa)  
@@ -24,6 +28,9 @@
 
 ### Últimas ramas
 
+- 📦 Repo: [playwright-junit-reporter](https://github.com/fmarinoa/playwright-junit-reporter)  
+        🌿 Rama: `feat/playwright-1.62-support`  
+        👤 Autor: [fmarinoa](https://github.com/fmarinoa)
 - 📦 Repo: [qa-automation-challenge](https://github.com/fmarinoa/qa-automation-challenge)  
         🌿 Rama: `main`  
         👤 Autor: [fmarinoa](https://github.com/fmarinoa)
