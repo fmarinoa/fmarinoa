@@ -34,9 +34,6 @@
 - 📦 Repo: [playwright-junit-reporter](https://github.com/fmarinoa/playwright-junit-reporter)  
         🌿 Rama: `feat/playwright-1.62-support`  
         👤 Autor: [fmarinoa](https://github.com/fmarinoa)
-- 📦 Repo: [qa-automation-challenge](https://github.com/fmarinoa/qa-automation-challenge)  
-        🌿 Rama: `main`  
-        👤 Autor: [fmarinoa](https://github.com/fmarinoa)
 
 ## 📊 GitHub Stats:
 ![](https://github-readme-stats.vercel.app/api?username=fmarinoa&theme=dark)
