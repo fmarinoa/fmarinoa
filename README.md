@@ -6,10 +6,6 @@
         📦 Repo: [_playwright-junit-reporter_](https://github.com/fmarinoa/playwright-junit-reporter)  
         👤 Autor: [fmarinoa](https://github.com/fmarinoa)  
         🔀 Branch: `fmarinoa:chore/setup-node-publish → fmarinoa:main`
-- 📝 [Bump support for Playwright 1.62.1](https://github.com/Xray-App/playwright-junit-reporter/pull/53)  
-        📦 Repo: [_playwright-junit-reporter_](https://github.com/Xray-App/playwright-junit-reporter)  
-        👤 Autor: [fmarinoa](https://github.com/fmarinoa)  
-        🔀 Branch: `fmarinoa:feat/playwright-1.62-support → Xray-App:main`
 
 ### Últimos pushes
 
@@ -30,9 +26,6 @@
 
 - 📦 Repo: [playwright-junit-reporter](https://github.com/fmarinoa/playwright-junit-reporter)  
         🌿 Rama: `chore/setup-node-publish`  
-        👤 Autor: [fmarinoa](https://github.com/fmarinoa)
-- 📦 Repo: [playwright-junit-reporter](https://github.com/fmarinoa/playwright-junit-reporter)  
-        🌿 Rama: `feat/playwright-1.62-support`  
         👤 Autor: [fmarinoa](https://github.com/fmarinoa)
 
 ## 📊 GitHub Stats:
