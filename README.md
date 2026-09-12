@@ -2,10 +2,7 @@
 
 ### Últimos pull requests
 
-- 📝 [Update Node.js version in publish workflow](https://github.com/fmarinoa/playwright-junit-reporter/pull/1)  
-        📦 Repo: [_playwright-junit-reporter_](https://github.com/fmarinoa/playwright-junit-reporter)  
-        👤 Autor: [fmarinoa](https://github.com/fmarinoa)  
-        🔀 Branch: `fmarinoa:chore/setup-node-publish → fmarinoa:main`
+Sin actividad reciente.
 
 ### Últimos pushes
 
@@ -17,16 +14,10 @@
         🔢 Commits: **1**  
         🌿 Rama: `main`  
         👤 Autor: [fmarinoa](https://github.com/fmarinoa)
-- 📦 Repo: [_playwright-junit-reporter_](https://github.com/fmarinoa/playwright-junit-reporter)  
-        🔢 Commits: **2**  
-        🌿 Rama: `main`  
-        👤 Autor: [fmarinoa](https://github.com/fmarinoa)
 
 ### Últimas ramas
 
-- 📦 Repo: [playwright-junit-reporter](https://github.com/fmarinoa/playwright-junit-reporter)  
-        🌿 Rama: `chore/setup-node-publish`  
-        👤 Autor: [fmarinoa](https://github.com/fmarinoa)
+Sin actividad reciente.
 
 ## 📊 GitHub Stats:
 ![](https://github-readme-stats.vercel.app/api?username=fmarinoa&theme=dark)
