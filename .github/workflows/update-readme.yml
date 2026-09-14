@@ -18,14 +18,30 @@ jobs:
       contents: write
 
     steps:
-    - uses: actions/checkout@v4
-    - uses: actions/setup-node@v4
+    - uses: actions/checkout@v7.0.1
+    - uses: actions/setup-node@v7.0.0
       with:
         node-version: '22'
+
+    - name: Generate stats card
+      uses: stats-organization/github-readme-stats-action@v2.0.2
+      with:
+        card: stats
+        options: username=${{ github.repository_owner }}&show_icons=true
+        path: profile/stats.svg
+        token: ${{ secrets.GITHUB_TOKEN }}
+
     - run: node ./src/index.js
-    - run: |
-        git config user.name fmarinoa
-        git config user.email ${{ secrets.MAIL }}
-        git add README.md
+      env:
+        GITHUB_USERNAME: ${{ github.repository_owner }}
+
+    - name: Commit README changes
+      env:
+        GIT_USER_NAME: ${{ github.repository_owner }}
+        GIT_USER_EMAIL: ${{ secrets.MAIL }}
+      run: |
+        git config user.name "$GIT_USER_NAME"
+        git config user.email "$GIT_USER_EMAIL"
+        git add README.md profile/*.svg
         git diff --quiet && git diff --staged --quiet || git commit -m "[bot] Update README with latest info"
         git push origin main

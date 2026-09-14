@@ -6,4 +6,4 @@ export const LASTEST_LIMITS = Object.freeze({
 
 export const REQUEST_HEADERS = { "Cache-Control": "no-cache" };
 
-export const GITHUB_USERNAME = "fmarinoa";
+export const GITHUB_USERNAME = process.env.GITHUB_USERNAME;

@@ -93,64 +93,80 @@ const getLatestBranches = (events) => {
   }));
 };
 
-const writeLatestPr = (data) => {
-  if (!data.length) return "Sin actividad reciente.";
-  return data
-    .map(
-      (pr) =>
-        `- 📝 [${pr.title}](${pr.url})  
-        📦 Repo: [_${pr.repository.name}_](${pr.repository.url})  
-        👤 Autor: [${pr.actor.name}](${pr.actor.urlProfile})  
-        🔀 Branch: \`${pr.compare.head} → ${pr.compare.base}\``
-    )
-    .join("\n");
+const formats = {
+  latestPRs: (pr) =>
+    `- 📝 [${pr.title}](${pr.url})\\
+        📦 Repo: [_${pr.repository.name}_](${pr.repository.url})\\
+        👤 Autor: [${pr.actor.name}](${pr.actor.urlProfile})\\
+        🔀 Branch: \`${pr.compare.head} → ${pr.compare.base}\``,
+  latestPushes: (push) =>
+    `- 📦 Repo: [_${push.repository.name}_](${push.repository.url})\\
+        🔢 Commits: **${push.commits}**\\
+        🌿 Rama: \`${push.branch}\`\\
+        👤 Autor: [${push.actor.name}](${push.actor.urlProfile})`,
+  latestBranches: (branch) =>
+    `- 📦 Repo: [${branch.repository.name}](${branch.repository.url})\\
+        🌿 Rama: \`${branch.branch}\`\\
+        👤 Autor: [${branch.actor.name}](${branch.actor.urlProfile})`,
 };
 
-const writeLatestPushes = (data) => {
+const formatList = (data, formatter) => {
   if (!data.length) return "Sin actividad reciente.";
-  return data
-    .map(
-      (push) =>
-        `- 📦 Repo: [_${push.repository.name}_](${push.repository.url})  
-        🔢 Commits: **${push.commits}**  
-        🌿 Rama: \`${push.branch}\`  
-        👤 Autor: [${push.actor.name}](${push.actor.urlProfile})`
-    )
-    .join("\n");
+  return data.map(formatter).join("\n");
 };
 
-const writeLatestBranches = (data) => {
-  if (!data.length) return "Sin actividad reciente.";
-  return data
-    .map(
-      (branch) =>
-        `- 📦 Repo: [${branch.repository.name}](${branch.repository.url})  
-        🌿 Rama: \`${branch.branch}\`  
-        👤 Autor: [${branch.actor.name}](${branch.actor.urlProfile})`
-    )
-    .join("\n");
+const ghTrophiesUrl = {
+  'ryo-ma': `https://github-profile-trophy.vercel.app?username=${GITHUB_USERNAME}`,
+  'cyberbee-pro': `https://trophygithubreadmelang.cybee.dpdns.org?username=${GITHUB_USERNAME}`,
+  adwitya: `https://github-profile-trophy-liard-delta.vercel.app?username=${GITHUB_USERNAME}`
+};
+
+const queryParamsTrophy = "&theme=tokyonight&no-frame=false&no-bg=true&margin-w=4";
+
+const buildFullGhTrophiesUrl = async () => {
+  for (const [key, url] of Object.entries(ghTrophiesUrl)) {
+    try {
+      const res = await fetch(url);
+      if (res.ok) return `${url}${queryParamsTrophy}`;
+    } catch (error) {
+      console.error(`Failed to fetch URL for ${key}:`, error);
+    }
+  }
+  return null;
+};
+
+const getCurrentTrophiesUrl = async () => {
+  const readme = await fs.readFile("README.md", "utf-8");
+  const candidates = readme.match(/!\[\]\((https?:[^\s)]+)\)/);
+  for (const candidate of candidates ?? []) {
+    if (candidate.includes(queryParamsTrophy)) return candidate;
+  }
+};
+
+const main = async () => {
+  const events = await fetchUserEvents();
+  const [latestPRs, latestPushes, latestBranches, urlTrophies, currentTrophiesUrl, template] = await Promise.all([
+    getLatestPrs(events),
+    getLatestPushes(events),
+    getLatestBranches(events),
+    buildFullGhTrophiesUrl(),
+    getCurrentTrophiesUrl(),
+    fs.readFile("src/README.md.tpl", "utf-8"),
+  ]);
+  let formattedTemplate = template
+    .replace("%{{latestPRs}}%", formatList(latestPRs, formats.latestPRs))
+    .replace("%{{latestPushes}}%", formatList(latestPushes, formats.latestPushes))
+    .replace(
+      "%{{latestBranches}}%",
+      formatList(latestBranches, formats.latestBranches)
+    );
+  formattedTemplate = formattedTemplate.replace(
+    "%{{urlTrophies}}%",
+    urlTrophies ?? currentTrophiesUrl
+  );
+  await fs.writeFile("README.md", formattedTemplate);
 };
 
 (async () => {
-  await fetchUserEvents()
-    .then(async (events) => {
-      const latestPRs = await getLatestPrs(events);
-      const latestPushes = await getLatestPushes(events);
-      const latestBranches = getLatestBranches(events);
-      return { latestPRs, latestPushes, latestBranches };
-    })
-    .then(async (data) => {
-      const template = await fs.readFile("src/README.md.tpl", "utf-8");
-      const output = template
-        .replace("%{{latestPRs}}%", writeLatestPr(data.latestPRs))
-        .replace("%{{latestPushes}}%", writeLatestPushes(data.latestPushes))
-        .replace(
-          "%{{latestBranches}}%",
-          writeLatestBranches(data.latestBranches)
-        );
-      await fs.writeFile("README.md", output);
-    })
-    .catch((error) => {
-      throw error;
-    });
+  await main();
 })();
