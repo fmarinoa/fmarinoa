@@ -6,7 +6,7 @@
 
 | Últimos pull requests | Últimos pushes | Últimas ramas |
 | --- | --- | --- |
-| Sin actividad reciente. | 📦 [_qa-automation-challenge_](https://github.com/fmarinoa/qa-automation-challenge) · 🔢 **1** · 🌿 `main`<br>📦 [_fmarinoa-portfolio_](https://github.com/fmarinoa/fmarinoa-portfolio) · 🔢 **1** · 🌿 `content`<br>📦 [_shortlink-monorepo_](https://github.com/fmarinoa/shortlink-monorepo) · 🔢 **1** · 🌿 `main` | Sin actividad reciente. |
+| 📝 [Add e2e testing workflow and configure Serenity reports](https://github.com/CarlosGC123/TicketPe-Testing-Web/pull/1) · 📦 [_TicketPe-Testing-Web_](https://github.com/CarlosGC123/TicketPe-Testing-Web) · 🔀 `CarlosGC123:feat/ci → CarlosGC123:master` | 📦 [_TicketPe-Testing-Web_](https://github.com/CarlosGC123/TicketPe-Testing-Web) · 🔢 **undefined** · 🌿 `master`<br>📦 [_TicketPe-Testing-Web_](https://github.com/CarlosGC123/TicketPe-Testing-Web) · 🔢 **undefined** · 🌿 `master`<br>📦 [_TicketPe-Testing-Web_](https://github.com/CarlosGC123/TicketPe-Testing-Web) · 🔢 **undefined** · 🌿 `master` | Sin actividad reciente. |
 
 ## 📊 GitHub Stats:
 ![Stats](./profile/stats.svg)
