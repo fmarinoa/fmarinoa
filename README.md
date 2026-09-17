@@ -4,28 +4,9 @@
 
 # 🚀 Mi actividad reciente:
 
-### Últimos pull requests
-
-Sin actividad reciente.
-
-### Últimos pushes
-
-- 📦 Repo: [_qa-automation-challenge_](https://github.com/fmarinoa/qa-automation-challenge)\
-        🔢 Commits: **1**\
-        🌿 Rama: `main`\
-        👤 Autor: [fmarinoa](https://github.com/fmarinoa)
-- 📦 Repo: [_fmarinoa-portfolio_](https://github.com/fmarinoa/fmarinoa-portfolio)\
-        🔢 Commits: **1**\
-        🌿 Rama: `content`\
-        👤 Autor: [fmarinoa](https://github.com/fmarinoa)
-- 📦 Repo: [_shortlink-monorepo_](https://github.com/fmarinoa/shortlink-monorepo)\
-        🔢 Commits: **1**\
-        🌿 Rama: `main`\
-        👤 Autor: [fmarinoa](https://github.com/fmarinoa)
-
-### Últimas ramas
-
-Sin actividad reciente.
+| Últimos pull requests | Últimos pushes | Últimas ramas |
+| --- | --- | --- |
+| Sin actividad reciente. | 📦 [_qa-automation-challenge_](https://github.com/fmarinoa/qa-automation-challenge) · 🔢 **1** · 🌿 `main`<br>📦 [_fmarinoa-portfolio_](https://github.com/fmarinoa/fmarinoa-portfolio) · 🔢 **1** · 🌿 `content`<br>📦 [_shortlink-monorepo_](https://github.com/fmarinoa/shortlink-monorepo) · 🔢 **1** · 🌿 `main` | Sin actividad reciente. |
 
 ## 📊 GitHub Stats:
 ![Stats](./profile/stats.svg)

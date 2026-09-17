@@ -4,17 +4,9 @@
 
 # 🚀 Mi actividad reciente:
 
-### Últimos pull requests
-
-%{{latestPRs}}%
-
-### Últimos pushes
-
-%{{latestPushes}}%
-
-### Últimas ramas
-
-%{{latestBranches}}%
+| Últimos pull requests | Últimos pushes | Últimas ramas |
+| --- | --- | --- |
+| %{{latestPRs}}% | %{{latestPushes}}% | %{{latestBranches}}% |
 
 ## 📊 GitHub Stats:
 ![Stats](./profile/stats.svg)
