@@ -95,24 +95,16 @@ const getLatestBranches = (events) => {
 
 const formats = {
   latestPRs: (pr) =>
-    `- 📝 [${pr.title}](${pr.url})\\
-        📦 Repo: [_${pr.repository.name}_](${pr.repository.url})\\
-        👤 Autor: [${pr.actor.name}](${pr.actor.urlProfile})\\
-        🔀 Branch: \`${pr.compare.head} → ${pr.compare.base}\``,
+    `📝 [${pr.title}](${pr.url}) · 📦 [_${pr.repository.name}_](${pr.repository.url}) · 🔀 \`${pr.compare.head} → ${pr.compare.base}\``,
   latestPushes: (push) =>
-    `- 📦 Repo: [_${push.repository.name}_](${push.repository.url})\\
-        🔢 Commits: **${push.commits}**\\
-        🌿 Rama: \`${push.branch}\`\\
-        👤 Autor: [${push.actor.name}](${push.actor.urlProfile})`,
+    `📦 [_${push.repository.name}_](${push.repository.url}) · 🔢 **${push.commits}** · 🌿 \`${push.branch}\``,
   latestBranches: (branch) =>
-    `- 📦 Repo: [${branch.repository.name}](${branch.repository.url})\\
-        🌿 Rama: \`${branch.branch}\`\\
-        👤 Autor: [${branch.actor.name}](${branch.actor.urlProfile})`,
+    `📦 [${branch.repository.name}](${branch.repository.url}) · 🌿 \`${branch.branch}\``,
 };
 
 const formatList = (data, formatter) => {
   if (!data.length) return "Sin actividad reciente.";
-  return data.map(formatter).join("\n");
+  return data.map(formatter).join("<br>");
 };
 
 const ghTrophiesUrl = {
