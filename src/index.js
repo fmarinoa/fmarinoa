@@ -97,7 +97,7 @@ const formats = {
   latestPRs: (pr) =>
     `📝 [${pr.title}](${pr.url}) · 📦 [_${pr.repository.name}_](${pr.repository.url}) · 🔀 \`${pr.compare.head} → ${pr.compare.base}\``,
   latestPushes: (push) =>
-    `📦 [_${push.repository.name}_](${push.repository.url}) · 🔢 **${push.commits}** · 🌿 \`${push.branch}\``,
+    `📦 [_${push.repository.name}_](${push.repository.url}) ${push.commits ? '· 🔢 **' + push.commits + '**' : '·'} 🌿 \`${push.branch}\``,
   latestBranches: (branch) =>
     `📦 [${branch.repository.name}](${branch.repository.url}) · 🌿 \`${branch.branch}\``,
 };

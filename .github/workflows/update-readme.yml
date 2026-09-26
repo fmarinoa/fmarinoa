@@ -27,7 +27,7 @@ jobs:
       uses: stats-organization/github-readme-stats-action@v2.0.2
       with:
         card: stats
-        options: username=${{ github.repository_owner }}&show_icons=true
+        options: username=${{ github.repository_owner }}&show_icons=true&hide_border=true&bg_color=00000000&title_color=2f80ed&icon_color=2f80ed&text_color=9198a1
         path: profile/stats.svg
         token: ${{ secrets.GITHUB_TOKEN }}
 

@@ -9,12 +9,12 @@
 | %{{latestPRs}}% | %{{latestPushes}}% | %{{latestBranches}}% |
 
 ## 📊 GitHub Stats:
-![Stats](./profile/stats.svg)
+<div align="center">
+  <img src="./profile/stats.svg" alt="GitHub Stats - Franco Mariño" />
+</div>
 
 ## 🏆 GitHub Trophies
 ![](%{{urlTrophies}}%)
 
 ## 🌐 Socials:
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/franco-mariño-2a289620a/)
-
-[![Portfolio](https://portfolio.francomarino.dev/og-image.jpg)](https://portfolio.francomarino.dev)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/franco-mariño-2a289620a/) [![Portfolio](https://img.shields.io/badge/Portfolio-7C3AED?logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgc3Ryb2tlPSJ3aGl0ZSIgc3Ryb2tlLXdpZHRoPSIyIj48Y2lyY2xlIGN4PSIxMiIgY3k9IjEyIiByPSIxMCIvPjxwYXRoIGQ9Ik0yIDEyaDIwTTEyIDJhMTUuMyAxNS4zIDAgMDEwIDIwIDE1LjMgMTUuMyAwIDAxMC0yMCIvPjwvc3ZnPgo=)](https://portfolio.francomarino.dev)
