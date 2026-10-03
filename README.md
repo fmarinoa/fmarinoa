@@ -6,7 +6,7 @@
 
 | Últimos pull requests | Últimos pushes | Últimas ramas |
 | --- | --- | --- |
-| 📝 [Add e2e testing workflow and configure Serenity reports](https://github.com/CarlosGC123/TicketPe-Testing-Web/pull/1) · 📦 [_TicketPe-Testing-Web_](https://github.com/CarlosGC123/TicketPe-Testing-Web) · 🔀 `CarlosGC123:feat/ci → CarlosGC123:master` | 📦 [_TicketPe-Testing-Web_](https://github.com/CarlosGC123/TicketPe-Testing-Web) · 🌿 `master`<br>📦 [_TicketPe-Testing-Web_](https://github.com/CarlosGC123/TicketPe-Testing-Web) · 🌿 `master`<br>📦 [_TicketPe-Testing-Web_](https://github.com/CarlosGC123/TicketPe-Testing-Web) · 🌿 `master` | 📦 [TicketPe-Testing-Web](https://github.com/CarlosGC123/TicketPe-Testing-Web) · 🌿 `feat/ci` |
+| 📝 [Bump support for Playwright 1.63.0](https://github.com/Xray-App/playwright-junit-reporter/pull/56) · 📦 [_playwright-junit-reporter_](https://github.com/Xray-App/playwright-junit-reporter) · 🔀 `fmarinoa:feat/playwright-1.63-support → Xray-App:main`<br>📝 [Add e2e testing workflow and configure Serenity reports](https://github.com/CarlosGC123/TicketPe-Testing-Web/pull/1) · 📦 [_TicketPe-Testing-Web_](https://github.com/CarlosGC123/TicketPe-Testing-Web) · 🔀 `CarlosGC123:feat/ci → CarlosGC123:master` | 📦 [_TicketPe-Testing-Web_](https://github.com/CarlosGC123/TicketPe-Testing-Web) · 🌿 `master`<br>📦 [_TicketPe-Testing-Web_](https://github.com/CarlosGC123/TicketPe-Testing-Web) · 🌿 `master`<br>📦 [_TicketPe-Testing-Web_](https://github.com/CarlosGC123/TicketPe-Testing-Web) · 🌿 `master` | 📦 [playwright-junit-reporter](https://github.com/fmarinoa/playwright-junit-reporter) · 🌿 `feat/playwright-1.63-support`<br>📦 [TicketPe-Testing-Web](https://github.com/CarlosGC123/TicketPe-Testing-Web) · 🌿 `feat/ci` |
 
 ## 📊 GitHub Stats:
 <div align="center">
