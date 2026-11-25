@@ -6,7 +6,7 @@
 
 | Últimos pull requests | Últimos pushes | Últimas ramas |
 | --- | --- | --- |
-| 📝 [ci: publish to npm, tag and release when version changes on main](https://github.com/fmarinoa/error-catalog/pull/1) · 📦 [_error-catalog_](https://github.com/fmarinoa/error-catalog) · 🔀 `fmarinoa:ci/automated-publish → fmarinoa:main` | 📦 [_error-catalog_](https://github.com/fmarinoa/error-catalog) · 🔢 **1** 🌿 `feat/problem-details-openapi-fastify`<br>📦 [_error-catalog_](https://github.com/fmarinoa/error-catalog) · 🔢 **1** 🌿 `main`<br>📦 [_error-catalog_](https://github.com/fmarinoa/error-catalog) · 🔢 **1** 🌿 `main` | 📦 [error-catalog](https://github.com/fmarinoa/error-catalog) · 🌿 `feat/problem-details-openapi-fastify`<br>📦 [fmarinoa-portfolio](https://github.com/fmarinoa/fmarinoa-portfolio) · 🌿 `claude/robots-llms-sitemap-utbo8j`<br>📦 [error-catalog](https://github.com/fmarinoa/error-catalog) · 🌿 `ci/automated-publish` |
+| Sin actividad reciente. | 📦 [_error-catalog_](https://github.com/fmarinoa/error-catalog) · 🌿 `feat/problem-details-openapi-fastify`<br>📦 [_error-catalog_](https://github.com/fmarinoa/error-catalog) · 🌿 `main` | 📦 [error-catalog](https://github.com/fmarinoa/error-catalog) · 🌿 `feat/problem-details-openapi-fastify`<br>📦 [fmarinoa-portfolio](https://github.com/fmarinoa/fmarinoa-portfolio) · 🌿 `claude/robots-llms-sitemap-utbo8j` |
 
 ## 📊 GitHub Stats:
 <div align="center">
