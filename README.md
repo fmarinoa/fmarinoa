@@ -6,7 +6,7 @@
 
 | Últimos pull requests | Últimos pushes | Últimas ramas |
 | --- | --- | --- |
-| Sin actividad reciente. | 📦 [_error-catalog_](https://github.com/fmarinoa/error-catalog) · 🌿 `feat/problem-details-openapi-fastify`<br>📦 [_error-catalog_](https://github.com/fmarinoa/error-catalog) · 🌿 `main` | 📦 [error-catalog](https://github.com/fmarinoa/error-catalog) · 🌿 `feat/problem-details-openapi-fastify`<br>📦 [fmarinoa-portfolio](https://github.com/fmarinoa/fmarinoa-portfolio) · 🌿 `claude/robots-llms-sitemap-utbo8j` |
+| Sin actividad reciente. | 📦 [_error-catalog_](https://github.com/fmarinoa/error-catalog) · 🔢 **1** 🌿 `feat/problem-details-openapi-fastify`<br>📦 [_error-catalog_](https://github.com/fmarinoa/error-catalog) · 🔢 **1** 🌿 `main` | 📦 [error-catalog](https://github.com/fmarinoa/error-catalog) · 🌿 `feat/problem-details-openapi-fastify` |
 
 ## 📊 GitHub Stats:
 <div align="center">
