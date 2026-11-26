@@ -6,7 +6,7 @@
 
 | Últimos pull requests | Últimos pushes | Últimas ramas |
 | --- | --- | --- |
-| Sin actividad reciente. | 📦 [_error-catalog_](https://github.com/fmarinoa/error-catalog) · 🔢 **1** 🌿 `feat/problem-details-openapi-fastify` | Sin actividad reciente. |
+| Sin actividad reciente. | Sin actividad reciente. | Sin actividad reciente. |
 
 ## 📊 GitHub Stats:
 <div align="center">
